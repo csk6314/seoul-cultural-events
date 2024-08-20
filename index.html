@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./common.js" defer></script>
+    <title>Seoul Cultural Events</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <h1>
+          <img src="./img//logo.svg" alt="Seoul Cultural Events Logo" />
+          <span>Seoul Cultural Events</span>
+        </h1>
+        <nav class="nav-category"></nav>
+        <div class="search-con">
+          <select class="search-filter">
+            <option value="title" selected>제목</option>
+            <option value="date">날짜</option>
+          </select>
+          <div class="search-input">
+            <input type="text" />
+            <i id="search-btn" class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <i id="menu-btn" class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <main>
+        <section class="cultural-events-sec">
+          <div class="result-box" style="display: none">
+            <b></b>
+            <span></span>
+          </div>
+          <div class="category-tab">
+            <h2></h2>
+            <span></span>
+          </div>
+          <ul class="event-list"></ul>
+        </section>
+      </main>
+      <footer>
+        <div class="pagination">
+          <button><i class="fa-solid fa-angles-left"></i></button>
+          <button><i class="fa-solid fa-angle-left"></i></button>
+          <div class="page-list"></div>
+          <button><i class="fa-solid fa-angle-right"></i></button>
+          <button><i class="fa-solid fa-angles-right"></i></button>
+        </div>
+      </footer>
+    </div>
+    <div id="modal">
+      <div class="modal-wrap">
+        <div class="modal-header">
+          <h2>카테고리</h2>
+          <i id="close-btn" class="fa-solid fa-x"></i>
+        </div>
+        <nav class="modal-nav"></nav>
+      </div>
+    </div>
+  </body>
+</html>
