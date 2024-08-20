@@ -1,5 +1,5 @@
 const API_URL = "http://openapi.seoul.go.kr:8088";
-const API_KEY = "71574f6c4e63736b3130337242736f65";
+const API_KEY = "";
 const type = "json";
 const SERVICE = "culturalEventInfo";
 const CATEGORY = Object.freeze([
