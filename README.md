@@ -2,7 +2,7 @@
 
 ## **로고**
 
-<center> ![Logo](./img/logo.svg) </center>
+<center> <image src="./img/logo.svg" alt='logo'><div>Logo</div> </center>
 
 ## 프로젝트 정보
 
